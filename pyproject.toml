@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mango-trading"
+version = "0.1.0"
+description = ""
+authors = ["corn <dalcon10280@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.11.11"
+pydantic-settings = "^2.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[market-data.binance]
+market-data-endpoint = "https://data-api.binance.vision/api/v3"
